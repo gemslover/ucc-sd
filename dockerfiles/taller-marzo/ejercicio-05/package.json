@@ -1,0 +1,12 @@
+{
+    "name": "uccjs",
+    "version": "1.0.0",
+    "description": "Dockerfile que ejecute un servidor Node.js",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }

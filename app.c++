@@ -3,21 +3,21 @@
 using namespace std;
  
 int main() {
-    //definicion de las variables
+    //Hora de definir las variables
     int num1;
     int num2;
     int suma, resta, multiplicacion;
     float division;
  
-    //autor
-    cout << "+-----------------------------------------+\n";
-	cout << "| pgm_basico.cpp                          |\n";
-	cout << "| Language: C++                           |\n";
-	cout << "| Autor: Julian Alfredo   By Santiago Duran          |\n";
+    //quien es el autor
+    cout << "+-----------------------------------------+                                    |\n";
+	cout << "| pgm_basico.cpp                                                   |\n";
+	cout << "| Language: C++                                                     |\n";
+	cout << "| Autor: Julian Alfredo   By Santiago Duran       |\n";
 	cout << "+-----------------------------------------+\n";
 	cout << "";
  
-    //pedimos los numeros por consola
+    //se solicita los numeros por consola
     cout << "Escribe un número entero : ";
     cin >> num1;
  
@@ -27,7 +27,7 @@ int main() {
     resta = num1 - num2;
     multiplicacion = num1 * num2;
  
-    // Asegurémonos de no dividir por cero
+    // Se confirma de que no se este dividiendo por 0
     if (num2 != 0) {
         division = (float)num1 / num2;
         cout << "La division de los numeros es 🚀: " << division << endl;
